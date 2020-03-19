@@ -1,0 +1,201 @@
+body {
+  padding: 0px;
+  margin: 0px;
+}
+* {
+  margin: 0px;
+  padding: 0px;
+}
+header {
+  background-size: 100% 100%;
+  background-color: #4099ff;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.foto__header {
+  display: flex;
+  justify-content: center;
+  padding-top: 100px;
+}
+.foto__header img {
+  border-radius: 100px;
+}
+.htmlPortfolio__header {
+  text-align: center;
+  color: #fff;
+  font-family: 'Lato', sans-serif;
+  font-size: 30px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+.section__aboutme {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center;
+  background-color: #fff;
+}
+.title__About {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  color: #3695ff;
+  padding-top: 100px;
+}
+.title__textAbout {
+  text-align: center;
+  font-size: 15px;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  font-family: 'Lato', sans-serif;
+}
+.section__expert {
+  background-position: center;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+.title__expertCenterText {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  color: #3695ff;
+}
+.transform_experts_block {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+.second_block {
+  margin-top: 100px;
+}
+.second_blockjs {
+  margin-top: 76px;
+}
+.title__expertBlock {
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+  color: #3695ff;
+  padding-top: 50px;
+}
+.expertBlock svg {
+  display: block;
+  margin: 0px auto;
+}
+.menu__expertBlock {
+  text-align: center;
+  padding-top: 50px;
+}
+.menu__expertBlock li {
+  font-family: 'Lato', sans-serif;
+  font-size: 15px;
+  list-style-type: none;
+}
+.title__centerWorks {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  color: #3695ff;
+}
+.works__blocksTransform {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
+}
+.secondBlock_work {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+.section__contact {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+.title__centerContact {
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Lato', sans-serif;
+  color: #3695ff;
+}
+.mail__textContact {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+}
+.phone__textContact {
+  padding-top: 50px;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Lato', sans-serif;
+  margin-bottom: 100px;
+}
+.footer {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+  background-color: #3695ff;
+  padding-bottom: 100px;
+}
+@media (min-width: 768px) and (max-width: 1023px) {
+  .title__textAbout {
+    width: 50%;
+    margin: 0px auto;
+  }
+  .transform_experts_block {
+    display: inline-block;
+  }
+  .works__blocksTransform {
+    display: inline-block;
+    text-align: center;
+  }
+}
+@media (min-width: 425px) and (max-width: 767px) {
+  .htmlPortfolio__header {
+    font-size: 20px;
+  }
+  .title__textAbout {
+    width: 70%;
+    margin: 0px auto;
+  }
+  .transform_experts_block {
+    display: inline-block;
+  }
+  .works__blocksTransform {
+    display: inline-block;
+    text-align: center;
+  }
+}
+@media (min-width: 375px) and (max-width: 424px) {
+  .htmlPortfolio__header {
+    font-size: 20px;
+  }
+  .title__textAbout {
+    width: 80%;
+    margin: 0px auto;
+  }
+  .transform_experts_block {
+    display: inline-block;
+  }
+  .works__blocksTransform {
+    display: inline-block;
+    text-align: center;
+  }
+}
+@media (min-width: 320px) and (max-width: 374px) {
+  .htmlPortfolio__header {
+    font-size: 20px;
+  }
+  .title__textAbout {
+    width: 90%;
+    margin: 0px auto;
+  }
+  .transform_experts_block {
+    display: inline-block;
+  }
+  .works__blocksTransform {
+    display: inline-block;
+    text-align: center;
+  }
+}
